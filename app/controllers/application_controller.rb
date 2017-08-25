@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
     render html: "hello world"
   end
 
-  def webhook
-    render html: params["hub.challenge"]
-  end
+  # def webhook
+  #   redirect_to 
+  # end
 end
