@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
   end
 
   def webhook
-    render html: "webhook successful"
+    render html: params["challenge"]
   end
 end
