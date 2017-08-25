@@ -7,8 +7,4 @@ class ApplicationController < ActionController::Base
   def home
     render html: "hello world"
   end
-
-  # def webhook
-  #   redirect_to 
-  # end
 end
