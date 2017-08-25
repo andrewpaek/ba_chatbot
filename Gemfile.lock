@@ -52,7 +52,7 @@ GEM
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
     execjs (2.7.0)
-    facebook-messenger (0.9.0)
+    facebook-messenger (1.0.0)
       httparty (~> 0.13, >= 0.13.7)
       rack (>= 1.6.4)
     ffi (1.9.18)
@@ -167,7 +167,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
-  facebook-messenger
+  facebook-messenger (= 1.0.0)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
