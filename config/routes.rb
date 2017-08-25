@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'application#home'
   get '/webhook', to: 'application#webhook'
   post '/webhook', to: 'application#receive_message'
+  mount Facebook::Messenger::Server, at: 'bot'
 end
